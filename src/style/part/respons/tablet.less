@@ -1,0 +1,53 @@
+@import "../sprite.less";
+@import "../mixin.less";
+@import "../base.less";
+
+@media screen and (max-width: 1023px) { // планшет вертикально
+	.wrap {
+		padding: 0 20px;
+	}
+
+	.block-left,
+	.block-right {
+		width: 48%;
+		height: auto;
+	}
+
+	.form-flex {
+		display: block;
+	}
+
+	.form-col2 {
+		width: 100%;
+	}
+
+	.header {
+		display: block;
+	}
+
+	.header-info {
+		position: absolute;
+		width: 320px;
+		top: -10px;
+		right: 0;
+		padding: 25px 0;
+		i {
+			left: -60px;
+		}
+	}
+
+	.header-phone {
+		position: absolute;
+		width: 320px;
+		top: 55px;
+		right: 0;
+		padding: 25px 0;
+		i {
+			left: -60px;
+		}
+	}
+
+	.header {
+		padding: 20px;
+	}
+}

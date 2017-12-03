@@ -1,0 +1,165 @@
+<div class="block-1">
+    <div class="wrap">
+        <div class="block-title">Узнайте, как сэкономить на технологическом присоединении<br> <span>до 72%!</span></div>
+
+        <div class="block-subtitle">Мы уже сэкономили своим клиентам 689&nbsp312&nbsp573&nbspрубля.<br>
+        Сэкономить вам?</div>
+
+        <div class="top-form">
+            <form action="" id="form1">
+                <div class="form__personal">
+                    <input type="checkbox" name="personal" id="personal-1">
+                    <label for="personal-1">Согласен(а) на обработку <a href="#">персональных данных</a></label>
+                </div>
+                <div class="form-line">
+                    <div class="form-col">
+                        <input type="text" name="name" placeholder="Ваше имя">
+                    </div>
+                    <div class="form-col">
+                        <input type="text" name="phone" placeholder="Номер телефона">
+                    </div>
+                    <div class="form-col form-col--button">
+                        <button type="submit">Начать экономить</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="block-2">
+    <div class="wrap">
+        <div class="block-title">Поможем подключиться к электросетям<br>на выгодных для вас условиях</div>
+
+        <div class="block-subtitle"></div>
+        <div class="box">
+            <div class="block-left">
+                <div class="block-h2">Поможем, если Вам:</div>
+                <div class="info info--about-1"><i></i>Назвали высокую стоимость подключения</div>
+                 <div class="info info--about-2"><i></i>Отказали в выдаче технических условий</div>
+                 <div class="info info--about-3"><i></i>Затягивают сроки подключения</div>
+            </div>
+            <div class="block-right">
+                <div class="block-h2">С чего начать?</div>
+                <div class="block-descr">Скачайте подробный план действий, указав свое имя<br> и номер телефона.</div>
+                <form action="" id="form2">
+                    <div class="form-flex">
+                        <div class="form-col2">
+                            <input type="text" name="name" placeholder="Ваше имя">
+                        </div>
+                        <div class="form-col2">
+                            <input type="text" name="phone" placeholder="Номер телефона">
+                         </div>
+                    </div>
+                    <div class="form-flex">
+                        <div class="form-col2">
+                            <div class="form__personal form__personal--white">
+                                <input type="checkbox" name="personal" id="personal-3">
+                                <label for="personal-3">Согласен(а) на обработку <a href="#">персональных данных</a></label>
+                            </div>
+                        </div>
+                        <div class="form-col2">
+                            <button type="submit">Скачать</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div> 
+</div>
+
+
+<div class="block-3">
+    <div class="wrap">
+        <div class="block-title">Хотите получить консультацию от специалистов с 10-летним стажем по вашей проблеме бесплатно?</div>
+
+        <div class="block-subtitle">Оставьте заявку, и мы с вами свяжемся:</div>
+
+        <div class="top-form">
+            <form action="" id="form3">
+                <div class="form__personal">
+                    <input type="checkbox" name="personal" id="personal-2">
+                    <label for="personal-2">Согласен(а) на обработку <a href="#">персональных данных</a></label>
+                </div>
+                <div class="form-line">
+                    <div class="form-col">
+                        <input type="text" name="name" placeholder="Ваше имя">
+                    </div>
+                    <div class="form-col">
+                        <input type="text" name="phone" placeholder="Номер телефона">
+                    </div>
+                    <div class="form-col form-col--button">
+                        <button type="submit">Отправить</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<div class="block-4">
+    <div class="wrap">
+        <div class="block-title">Дополнительные услуги</div>
+        <div class="services">
+            <div class="service">
+                <i class="service-icon service-icon--usl-1"></i>
+                <div class="service-title">Помощь при техническом присоединении</div>
+            </div>
+            <div class="service">
+                <i class="service-icon service-icon--usl-2"></i>
+                <div class="service-title">Помощь в случае безучетного потребления</div>
+            </div>
+            <div class="service">
+                <i class="service-icon service-icon--usl-3"></i>
+                <div class="service-title">Помощь в снижении тарифов</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+        <script type="text/javascript">
+            ymaps.ready(function () {
+                var myMap = new ymaps.Map('map', {
+                        center: [56.83509047930171,60.60984866665648],
+                        zoom: 16,
+                        controls: []
+                    }, {
+                    }),
+                 
+                    place = new ymaps.Placemark([
+                        56.83409656787987,60.611200499999995
+                        ], {
+                        iconCaption: 'ул. Розы Люксембург, 12'
+                    }, {
+                        iconLayout: 'default#image',
+                        iconImageHref: 'img/map.png',
+                        iconImageSize: [45, 54],
+                        iconImageOffset: [-22, -54]
+                    });
+                
+                    myMap.geoObjects.add(place);
+                    myMap.behaviors.disable('scrollZoom');
+                
+            }); 
+        </script>
+
+<div class="map" id="map">
+    <div class="wrap">
+        <div class="map-contact">
+            <div class="contact-block">
+                <i class="icon icon--map"></i>
+                <p>г. Екатеринбург, <br>
+                ул. Розы Люксембург, 12, офис 310, 312</p>
+
+                <p>Режим работы: пн-пт с 9:00 до 18:00</p>
+            </div>
+            <div class="contact-block">
+                <i class="icon icon--phone"></i>
+                <a href="#">+7(900) 199-98-84</a>
+                <a href="#">+7(343) 213-07-00</a>
+            </div>
+        </div>
+    </div>
+</div>
