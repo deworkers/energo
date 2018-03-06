@@ -35,7 +35,10 @@ $(document).ready(function() {
         $.ajax({
             type: "POST", //Метод отправки
             url: "/ajax/send.php", //путь до php фаила отправителя
-            data: formData
+            data: formData,
+            success: function() {
+                $('#form1').html('<div class="block-subtitle">Спасибо, ваша заявка принята</div>');
+            }
         });
     });
 
@@ -75,7 +78,10 @@ $(document).ready(function() {
         $.ajax({
             type: "POST", //Метод отправки
             url: "/ajax/send.php", //путь до php фаила отправителя
-            data: formData
+            data: formData,
+            success: function() {
+                $('#form2').html('<div class="block-subtitle">Спасибо, ваша заявка принята</div>');
+            }
         });
     });
 
@@ -115,7 +121,10 @@ $(document).ready(function() {
         $.ajax({
             type: "POST", //Метод отправки
             url: "/ajax/send.php", //путь до php фаила отправителя
-            data: formData
+            data: formData,
+            success: function() {
+
+            }
         });
     });
 
